@@ -1,0 +1,279 @@
+  
+ The order of the Runge-Kutta method is            2 .
+ The number of ODEs is            6 .
+  
+ The initial mesh has            9  subintervals.
+  
+ Use a defect mesh selection strategy.
+ Begin the Newton iteration:
+  
+ AFTER  8 NEWTON STEPS
+  
+ The Newton iteration failed.
+  
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be           18 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  4 NEWTON STEPS
+  
+ The Newton iteration failed.
+  
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be           36 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  9 NEWTON STEPS
+  
+ The Newton iteration failed.
+  
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be           72 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  6 NEWTON STEPS
+  
+ Compute only defect
+ The norm of the defect is    312.81040593250009     
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be          144 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  7 NEWTON STEPS
+  
+ Compute only defect
+ The norm of the defect is    1.1120679127097843     
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be          288 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  5 NEWTON STEPS
+  
+ Compute only defect
+ The norm of the defect is   0.91377318347118364     
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be          576 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  5 NEWTON STEPS
+  
+ Compute only defect
+ The norm of the defect is   0.31924475207535014     
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be         1152 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  5 NEWTON STEPS
+  
+ Compute only defect
+ The norm of the defect is   0.18580269978441516     
+ Cannot obtain a solution for the current mesh.
+  
+ Y will be reset to previous solution approximation.
+  
+ Halve each subinterval of the current mesh and try again.
+ The number of subintervals in the new mesh will be         2304 .
+  
+ Begin the Newton iteration:
+  
+ AFTER  5 NEWTON STEPS
+  
+ Compute only defect
+ The norm of the defect is   5.36495259277102454E-002
+ User defined tolerance  9.99999997475242708E-007  has not been satisfied.
+ Construct a new mesh which equidistributes the defect.
+  
+ Perform defect mesh selection strategy
+ Mesh selector will use RHO:    1.0000000000000000     
+ Mesh selector will choose a mesh to equdistribute error
+ The new mesh will have         8143  subintervals.
+  
+ Begin the Newton iteration:
+  
+ AFTER  1 NEWTON STEP
+  
+ Compute only defect
+ The norm of the defect is   4.23911722999595645E-004
+ User defined tolerance  9.99999997475242708E-007  has not been satisfied.
+ Construct a new mesh which equidistributes the defect.
+  
+ Perform defect mesh selection strategy
+ Mesh selector will use RHO:    1.0000000000000000     
+ Mesh selector will choose a mesh to equdistribute error
+ The new mesh will have        15313  subintervals.
+  
+ Begin the Newton iteration:
+  
+ AFTER  1 NEWTON STEP
+  
+ Compute only defect
+ The norm of the defect is   1.27043951915111622E-005
+ User defined tolerance  9.99999997475242708E-007  has not been satisfied.
+ Construct a new mesh which equidistributes the defect.
+  
+ Perform defect mesh selection strategy
+ Mesh selector will use RHO:    1.0000000000000000     
+ Mesh selector will choose a mesh to equdistribute error
+ The new mesh will have        19234  subintervals.
+  
+ Begin the Newton iteration:
+  
+ AFTER  1 NEWTON STEP
+  
+ Compute only defect
+ The norm of the defect is   1.43127741928767981E-006
+ User defined tolerance  9.99999997475242708E-007  has not been satisfied.
+ Construct a new mesh which equidistributes the defect.
+  
+ Perform defect mesh selection strategy
+ Mesh selector will use RHO:    1.0000000000000000     
+ Mesh selector will choose a mesh to equdistribute error
+ The new mesh will have        21157  subintervals.
+  
+ Begin the Newton iteration:
+  
+ AFTER  1 NEWTON STEP
+  
+ Compute only defect
+ The norm of the defect is   6.30982767476510066E-007
+ The user defined tolerance  9.99999997475242708E-007  has been satisfied.
+ Successful computation.
+  
+ AFTER  1 NEWTON STEP
+  
+ Estimated global error:   9.49275585218108668E-005
+  0.0000D+00 -0.1000D+01  0.0000D+00
+  0.1010D-01 -0.6014D+00  0.1154D-02
+  0.2020D-01 -0.3361D+00  0.2920D-02
+  0.3030D-01 -0.1842D+00  0.4268D-02
+  0.4040D-01 -0.1014D+00  0.5097D-02
+  0.5051D-01 -0.5680D-01  0.5543D-02
+  0.6061D-01 -0.3266D-01  0.5746D-02
+  0.7071D-01 -0.1945D-01  0.5805D-02
+  0.8081D-01 -0.1213D-01  0.5781D-02
+  0.9091D-01 -0.7992D-02  0.5707D-02
+  0.1010D+00 -0.5616D-02  0.5606D-02
+  0.1111D+00 -0.4220D-02  0.5489D-02
+  0.1212D+00 -0.3378D-02  0.5362D-02
+  0.1313D+00 -0.2854D-02  0.5228D-02
+  0.1414D+00 -0.2515D-02  0.5092D-02
+  0.1515D+00 -0.2285D-02  0.4953D-02
+  0.1616D+00 -0.2120D-02  0.4813D-02
+  0.1717D+00 -0.1995D-02  0.4671D-02
+  0.1818D+00 -0.1894D-02  0.4529D-02
+  0.1919D+00 -0.1809D-02  0.4387D-02
+  0.2020D+00 -0.1733D-02  0.4244D-02
+  0.2121D+00 -0.1663D-02  0.4102D-02
+  0.2222D+00 -0.1597D-02  0.3958D-02
+  0.2323D+00 -0.1534D-02  0.3815D-02
+  0.2424D+00 -0.1473D-02  0.3672D-02
+  0.2525D+00 -0.1412D-02  0.3529D-02
+  0.2626D+00 -0.1353D-02  0.3385D-02
+  0.2727D+00 -0.1294D-02  0.3241D-02
+  0.2828D+00 -0.1236D-02  0.3098D-02
+  0.2929D+00 -0.1178D-02  0.2954D-02
+  0.3030D+00 -0.1120D-02  0.2810D-02
+  0.3131D+00 -0.1062D-02  0.2667D-02
+  0.3232D+00 -0.1005D-02  0.2523D-02
+  0.3333D+00 -0.9471D-03  0.2379D-02
+  0.3434D+00 -0.8895D-03  0.2235D-02
+  0.3535D+00 -0.8321D-03  0.2091D-02
+  0.3636D+00 -0.7746D-03  0.1947D-02
+  0.3737D+00 -0.7172D-03  0.1803D-02
+  0.3838D+00 -0.6598D-03  0.1659D-02
+  0.3939D+00 -0.6024D-03  0.1514D-02
+  0.4040D+00 -0.5450D-03  0.1370D-02
+  0.4141D+00 -0.4877D-03  0.1226D-02
+  0.4242D+00 -0.4303D-03  0.1082D-02
+  0.4343D+00 -0.3729D-03  0.9377D-03
+  0.4444D+00 -0.3155D-03  0.7935D-03
+  0.4545D+00 -0.2582D-03  0.6492D-03
+  0.4646D+00 -0.2008D-03  0.5050D-03
+  0.4747D+00 -0.1434D-03  0.3607D-03
+  0.4848D+00 -0.8605D-04  0.2164D-03
+  0.4949D+00 -0.2868D-04  0.7214D-04
+  0.5051D+00  0.2868D-04 -0.7214D-04
+  0.5152D+00  0.8605D-04 -0.2164D-03
+  0.5253D+00  0.1434D-03 -0.3607D-03
+  0.5354D+00  0.2008D-03 -0.5050D-03
+  0.5455D+00  0.2582D-03 -0.6492D-03
+  0.5556D+00  0.3155D-03 -0.7935D-03
+  0.5657D+00  0.3729D-03 -0.9377D-03
+  0.5758D+00  0.4303D-03 -0.1082D-02
+  0.5859D+00  0.4877D-03 -0.1226D-02
+  0.5960D+00  0.5450D-03 -0.1370D-02
+  0.6061D+00  0.6024D-03 -0.1514D-02
+  0.6162D+00  0.6598D-03 -0.1659D-02
+  0.6263D+00  0.7172D-03 -0.1803D-02
+  0.6364D+00  0.7746D-03 -0.1947D-02
+  0.6465D+00  0.8321D-03 -0.2091D-02
+  0.6566D+00  0.8895D-03 -0.2235D-02
+  0.6667D+00  0.9471D-03 -0.2379D-02
+  0.6768D+00  0.1005D-02 -0.2523D-02
+  0.6869D+00  0.1062D-02 -0.2667D-02
+  0.6970D+00  0.1120D-02 -0.2810D-02
+  0.7071D+00  0.1178D-02 -0.2954D-02
+  0.7172D+00  0.1236D-02 -0.3098D-02
+  0.7273D+00  0.1294D-02 -0.3241D-02
+  0.7374D+00  0.1353D-02 -0.3385D-02
+  0.7475D+00  0.1412D-02 -0.3529D-02
+  0.7576D+00  0.1473D-02 -0.3672D-02
+  0.7677D+00  0.1534D-02 -0.3815D-02
+  0.7778D+00  0.1597D-02 -0.3958D-02
+  0.7879D+00  0.1663D-02 -0.4102D-02
+  0.7980D+00  0.1733D-02 -0.4244D-02
+  0.8081D+00  0.1809D-02 -0.4387D-02
+  0.8182D+00  0.1894D-02 -0.4529D-02
+  0.8283D+00  0.1995D-02 -0.4671D-02
+  0.8384D+00  0.2120D-02 -0.4813D-02
+  0.8485D+00  0.2285D-02 -0.4953D-02
+  0.8586D+00  0.2515D-02 -0.5092D-02
+  0.8687D+00  0.2854D-02 -0.5228D-02
+  0.8788D+00  0.3378D-02 -0.5362D-02
+  0.8889D+00  0.4220D-02 -0.5489D-02
+  0.8990D+00  0.5616D-02 -0.5606D-02
+  0.9091D+00  0.7992D-02 -0.5707D-02
+  0.9192D+00  0.1213D-01 -0.5781D-02
+  0.9293D+00  0.1945D-01 -0.5805D-02
+  0.9394D+00  0.3266D-01 -0.5746D-02
+  0.9495D+00  0.5680D-01 -0.5543D-02
+  0.9596D+00  0.1014D+00 -0.5097D-02
+  0.9697D+00  0.1842D+00 -0.4268D-02
+  0.9798D+00  0.3361D+00 -0.2920D-02
+  0.9899D+00  0.6014D+00 -0.1154D-02
+  0.1000D+01  0.1000D+01 -0.8078D-27

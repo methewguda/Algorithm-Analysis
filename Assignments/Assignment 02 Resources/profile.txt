@@ -1,0 +1,413 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 25.77      0.25     0.25       58     4.31     4.31  crdcmp_
+ 24.74      0.49     0.24      293     0.82     0.82  crslve_
+ 16.50      0.65     0.16    87355     0.00     0.00  __bvp_m_MOD_jacblk
+  8.25      0.73     0.08       14     5.71    64.76  __bvp_m_MOD_newiter
+  5.15      0.78     0.05   304306     0.00     0.00  __bvp_m_MOD_subcom
+  4.12      0.82     0.04   200717     0.00     0.00  __bvp_m_MOD_sum_stages
+  4.12      0.86     0.04   174710     0.00     0.00  __bvp_m_MOD_pd_f
+  3.09      0.89     0.03  1989525     0.00     0.00  __bvp_m_MOD_p_fsub
+  3.09      0.92     0.03       59     0.51    10.71  __bvp_m_MOD_damped_newt
+  2.06      0.94     0.02  1989525     0.00     0.00  __define_fcn_MOD_fsub
+  1.03      0.95     0.01    63971     0.00     0.00  __bvp_m_MOD_interp_weights
+  1.03      0.96     0.01      253     0.04     0.30  __bvp_m_MOD_resid
+  1.03      0.97     0.01        1    10.00    10.00  __bvp_m_MOD_load_sol
+  0.00      0.97     0.00    68383     0.00     0.00  __bvp_m_MOD_interp_setup
+  0.00      0.97     0.00    63951     0.00     0.00  __bvp_m_MOD_interval
+  0.00      0.97     0.00    63851     0.00     0.00  __bvp_m_MOD_interp_eval
+  0.00      0.97     0.00      659     0.00     0.00  __bvp_m_MOD_p_gsub
+  0.00      0.97     0.00      659     0.00     0.00  __define_fcn_MOD_bcsub
+  0.00      0.97     0.00      234     0.00     1.12  __bvp_m_MOD_criterion
+  0.00      0.97     0.00      179     0.00     1.06  __bvp_m_MOD_fixed_jacob
+  0.00      0.97     0.00      137     0.00     0.00  __bvp_m_MOD_check_stat
+  0.00      0.97     0.00      100     0.00     0.00  __bvp_m_MOD_eval_s
+  0.00      0.97     0.00      100     0.00     0.00  __bvp_m_MOD_sol_eval
+  0.00      0.97     0.00       58     0.00     1.25  __bvp_m_MOD_damp_factor
+  0.00      0.97     0.00       58     0.00     3.98  __bvp_m_MOD_newmat
+  0.00      0.97     0.00       58     0.00     0.00  __bvp_m_MOD_pd_bc
+  0.00      0.97     0.00       58     0.00     5.13  colrow_
+  0.00      0.97     0.00       10     0.00     3.07  __bvp_m_MOD_defect_estimate
+  0.00      0.97     0.00       10     0.00     0.00  __bvp_m_MOD_interp_setup_mesh
+  0.00      0.97     0.00       10     0.00     0.00  __define_fcn_MOD_guess_y
+  0.00      0.97     0.00        8     0.00     0.00  __bvp_m_MOD_half_mesh
+  0.00      0.97     0.00        4     0.00     0.00  __bvp_m_MOD_mesh_selector
+  0.00      0.97     0.00        4     0.00     0.00  __bvp_m_MOD_redistribute
+  0.00      0.97     0.00        3     0.00     0.00  __bvp_m_MOD_rk_tableau
+  0.00      0.97     0.00        1     0.00   970.04  MAIN__
+  0.00      0.97     0.00        1     0.00     0.00  __bvp_m_MOD_bvp_linspace
+  0.00      0.97     0.00        1     0.00   970.00  __bvp_m_MOD_bvp_solver
+  0.00      0.97     0.00        1     0.00     0.00  __bvp_m_MOD_bvp_terminate
+  0.00      0.97     0.00        1     0.00     0.00  __bvp_m_MOD_clean_mem
+  0.00      0.97     0.00        1     0.00     0.00  __bvp_m_MOD_global_error
+  0.00      0.97     0.00        1     0.00     0.00  __bvp_m_MOD_guess_3
+  0.00      0.97     0.00        1     0.00    64.76  __bvp_m_MOD_ho_gerror
+  0.00      0.97     0.00        1     0.00     0.00  __bvp_m_MOD_interp_tableau
+  0.00      0.97     0.00        1     0.00   895.24  __bvp_m_MOD_mirkdc
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 1.03% of 0.97 seconds
+
+index % time    self  children    called     name
+                0.00    0.97       1/1           main [2]
+[1]    100.0    0.00    0.97       1         MAIN__ [1]
+                0.00    0.97       1/1           __bvp_m_MOD_bvp_solver [3]
+                0.00    0.00     100/100         __bvp_m_MOD_eval_s [26]
+                0.00    0.00       1/1           __bvp_m_MOD_guess_3 [69]
+                0.00    0.00       1/1           __bvp_m_MOD_bvp_terminate [66]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]    100.0    0.00    0.97                 main [2]
+                0.00    0.97       1/1           MAIN__ [1]
+-----------------------------------------------
+                0.00    0.97       1/1           MAIN__ [1]
+[3]    100.0    0.00    0.97       1         __bvp_m_MOD_bvp_solver [3]
+                0.00    0.90       1/1           __bvp_m_MOD_mirkdc [5]
+                0.00    0.06       1/1           __bvp_m_MOD_ho_gerror [18]
+                0.01    0.00       1/1           __bvp_m_MOD_load_sol [25]
+                0.00    0.00       3/137         __bvp_m_MOD_check_stat [57]
+                0.00    0.00       1/1           __bvp_m_MOD_interp_tableau [70]
+                0.00    0.00       1/3           __bvp_m_MOD_rk_tableau [64]
+                0.00    0.00       1/1           __bvp_m_MOD_clean_mem [67]
+-----------------------------------------------
+                0.01    0.06       1/14          __bvp_m_MOD_ho_gerror [18]
+                0.07    0.77      13/14          __bvp_m_MOD_mirkdc [5]
+[4]     93.5    0.08    0.83      14         __bvp_m_MOD_newiter [4]
+                0.03    0.60      59/59          __bvp_m_MOD_damped_newt [6]
+                0.00    0.19     179/179         __bvp_m_MOD_fixed_jacob [13]
+                0.00    0.00      14/253         __bvp_m_MOD_resid [14]
+                0.00    0.00      25/137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+                0.00    0.90       1/1           __bvp_m_MOD_bvp_solver [3]
+[5]     92.3    0.00    0.90       1         __bvp_m_MOD_mirkdc [5]
+                0.07    0.77      13/14          __bvp_m_MOD_newiter [4]
+                0.00    0.03      10/10          __bvp_m_MOD_defect_estimate [21]
+                0.00    0.02   63851/63851       __bvp_m_MOD_interp_eval [22]
+                0.00    0.00      90/137         __bvp_m_MOD_check_stat [57]
+                0.00    0.00      10/10          __bvp_m_MOD_interp_setup_mesh [59]
+                0.00    0.00       8/8           __bvp_m_MOD_half_mesh [61]
+                0.00    0.00       4/4           __bvp_m_MOD_mesh_selector [62]
+-----------------------------------------------
+                0.03    0.60      59/59          __bvp_m_MOD_newiter [4]
+[6]     65.1    0.03    0.60      59         __bvp_m_MOD_damped_newt [6]
+                0.00    0.30      58/58          colrow_ [7]
+                0.00    0.23      58/58          __bvp_m_MOD_newmat [12]
+                0.00    0.07      58/58          __bvp_m_MOD_damp_factor [15]
+                0.00    0.00       1/293         crslve_ [10]
+-----------------------------------------------
+                0.00    0.30      58/58          __bvp_m_MOD_damped_newt [6]
+[7]     30.7    0.00    0.30      58         colrow_ [7]
+                0.25    0.00      58/58          crdcmp_ [9]
+                0.05    0.00      58/293         crslve_ [10]
+-----------------------------------------------
+                0.00    0.07      65/234         __bvp_m_MOD_damp_factor [15]
+                0.00    0.19     169/234         __bvp_m_MOD_fixed_jacob [13]
+[8]     27.0    0.00    0.26     234         __bvp_m_MOD_criterion [8]
+                0.19    0.00     234/293         crslve_ [10]
+                0.01    0.06     234/253         __bvp_m_MOD_resid [14]
+-----------------------------------------------
+                0.25    0.00      58/58          colrow_ [7]
+[9]     25.8    0.25    0.00      58         crdcmp_ [9]
+-----------------------------------------------
+                0.00    0.00       1/293         __bvp_m_MOD_damped_newt [6]
+                0.05    0.00      58/293         colrow_ [7]
+                0.19    0.00     234/293         __bvp_m_MOD_criterion [8]
+[10]    24.7    0.24    0.00     293         crslve_ [10]
+-----------------------------------------------
+                0.16    0.07   87355/87355       __bvp_m_MOD_newmat [12]
+[11]    23.8    0.16    0.07   87355         __bvp_m_MOD_jacblk [11]
+                0.04    0.03  174710/174710      __bvp_m_MOD_pd_f [16]
+-----------------------------------------------
+                0.00    0.23      58/58          __bvp_m_MOD_damped_newt [6]
+[12]    23.8    0.00    0.23      58         __bvp_m_MOD_newmat [12]
+                0.16    0.07   87355/87355       __bvp_m_MOD_jacblk [11]
+                0.00    0.00      58/58          __bvp_m_MOD_pd_bc [58]
+-----------------------------------------------
+                0.00    0.19     179/179         __bvp_m_MOD_newiter [4]
+[13]    19.6    0.00    0.19     179         __bvp_m_MOD_fixed_jacob [13]
+                0.00    0.19     169/234         __bvp_m_MOD_criterion [8]
+                0.00    0.00       5/253         __bvp_m_MOD_resid [14]
+-----------------------------------------------
+                0.00    0.00       5/253         __bvp_m_MOD_fixed_jacob [13]
+                0.00    0.00      14/253         __bvp_m_MOD_newiter [4]
+                0.01    0.06     234/253         __bvp_m_MOD_criterion [8]
+[14]     7.8    0.01    0.07     253         __bvp_m_MOD_resid [14]
+                0.05    0.02  304306/304306      __bvp_m_MOD_subcom [17]
+                0.00    0.00     253/659         __bvp_m_MOD_p_gsub [55]
+-----------------------------------------------
+                0.00    0.07      58/58          __bvp_m_MOD_damped_newt [6]
+[15]     7.5    0.00    0.07      58         __bvp_m_MOD_damp_factor [15]
+                0.00    0.07      65/234         __bvp_m_MOD_criterion [8]
+-----------------------------------------------
+                0.04    0.03  174710/174710      __bvp_m_MOD_jacblk [11]
+[16]     7.3    0.04    0.03  174710         __bvp_m_MOD_pd_f [16]
+                0.02    0.01 1222970/1989525     __bvp_m_MOD_p_fsub [19]
+-----------------------------------------------
+                0.05    0.02  304306/304306      __bvp_m_MOD_resid [14]
+[17]     6.8    0.05    0.02  304306         __bvp_m_MOD_subcom [17]
+                0.01    0.01  629769/1989525     __bvp_m_MOD_p_fsub [19]
+-----------------------------------------------
+                0.00    0.06       1/1           __bvp_m_MOD_bvp_solver [3]
+[18]     6.7    0.00    0.06       1         __bvp_m_MOD_ho_gerror [18]
+                0.01    0.06       1/14          __bvp_m_MOD_newiter [4]
+                0.00    0.00       7/137         __bvp_m_MOD_check_stat [57]
+                0.00    0.00       2/3           __bvp_m_MOD_rk_tableau [64]
+                0.00    0.00       1/1           __bvp_m_MOD_global_error [68]
+-----------------------------------------------
+                0.00    0.00  136786/1989525     __bvp_m_MOD_defect_estimate [21]
+                0.01    0.01  629769/1989525     __bvp_m_MOD_subcom [17]
+                0.02    0.01 1222970/1989525     __bvp_m_MOD_pd_f [16]
+[19]     5.2    0.03    0.02 1989525         __bvp_m_MOD_p_fsub [19]
+                0.02    0.00 1989525/1989525     __define_fcn_MOD_fsub [23]
+-----------------------------------------------
+                0.00    0.00     100/200717      __bvp_m_MOD_sol_eval [27]
+                0.01    0.00   63851/200717      __bvp_m_MOD_interp_eval [22]
+                0.03    0.00  136766/200717      __bvp_m_MOD_defect_estimate [21]
+[20]     4.1    0.04    0.00  200717         __bvp_m_MOD_sum_stages [20]
+-----------------------------------------------
+                0.00    0.03      10/10          __bvp_m_MOD_mirkdc [5]
+[21]     3.2    0.00    0.03      10         __bvp_m_MOD_defect_estimate [21]
+                0.03    0.00  136766/200717      __bvp_m_MOD_sum_stages [20]
+                0.00    0.00  136786/1989525     __bvp_m_MOD_p_fsub [19]
+                0.00    0.00      20/63971       __bvp_m_MOD_interp_weights [24]
+-----------------------------------------------
+                0.00    0.02   63851/63851       __bvp_m_MOD_mirkdc [5]
+[22]     2.3    0.00    0.02   63851         __bvp_m_MOD_interp_eval [22]
+                0.01    0.00   63851/200717      __bvp_m_MOD_sum_stages [20]
+                0.01    0.00   63851/63971       __bvp_m_MOD_interp_weights [24]
+                0.00    0.00   63851/63951       __bvp_m_MOD_interval [54]
+-----------------------------------------------
+                0.02    0.00 1989525/1989525     __bvp_m_MOD_p_fsub [19]
+[23]     2.1    0.02    0.00 1989525         __define_fcn_MOD_fsub [23]
+-----------------------------------------------
+                0.00    0.00      20/63971       __bvp_m_MOD_defect_estimate [21]
+                0.00    0.00     100/63971       __bvp_m_MOD_sol_eval [27]
+                0.01    0.00   63851/63971       __bvp_m_MOD_interp_eval [22]
+[24]     1.0    0.01    0.00   63971         __bvp_m_MOD_interp_weights [24]
+-----------------------------------------------
+                0.01    0.00       1/1           __bvp_m_MOD_bvp_solver [3]
+[25]     1.0    0.01    0.00       1         __bvp_m_MOD_load_sol [25]
+                0.00    0.00       2/137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+                0.00    0.00     100/100         MAIN__ [1]
+[26]     0.0    0.00    0.00     100         __bvp_m_MOD_eval_s [26]
+                0.00    0.00     100/100         __bvp_m_MOD_sol_eval [27]
+-----------------------------------------------
+                0.00    0.00     100/100         __bvp_m_MOD_eval_s [26]
+[27]     0.0    0.00    0.00     100         __bvp_m_MOD_sol_eval [27]
+                0.00    0.00     100/200717      __bvp_m_MOD_sum_stages [20]
+                0.00    0.00     100/63971       __bvp_m_MOD_interp_weights [24]
+                0.00    0.00     100/63951       __bvp_m_MOD_interval [54]
+-----------------------------------------------
+                0.00    0.00   68383/68383       __bvp_m_MOD_interp_setup_mesh [59]
+[53]     0.0    0.00    0.00   68383         __bvp_m_MOD_interp_setup [53]
+-----------------------------------------------
+                0.00    0.00     100/63951       __bvp_m_MOD_sol_eval [27]
+                0.00    0.00   63851/63951       __bvp_m_MOD_interp_eval [22]
+[54]     0.0    0.00    0.00   63951         __bvp_m_MOD_interval [54]
+-----------------------------------------------
+                0.00    0.00     253/659         __bvp_m_MOD_resid [14]
+                0.00    0.00     406/659         __bvp_m_MOD_pd_bc [58]
+[55]     0.0    0.00    0.00     659         __bvp_m_MOD_p_gsub [55]
+                0.00    0.00     659/659         __define_fcn_MOD_bcsub [56]
+-----------------------------------------------
+                0.00    0.00     659/659         __bvp_m_MOD_p_gsub [55]
+[56]     0.0    0.00    0.00     659         __define_fcn_MOD_bcsub [56]
+-----------------------------------------------
+                0.00    0.00       1/137         __bvp_m_MOD_bvp_terminate [66]
+                0.00    0.00       1/137         __bvp_m_MOD_guess_3 [69]
+                0.00    0.00       1/137         __bvp_m_MOD_interp_tableau [70]
+                0.00    0.00       2/137         __bvp_m_MOD_load_sol [25]
+                0.00    0.00       2/137         __bvp_m_MOD_global_error [68]
+                0.00    0.00       2/137         __bvp_m_MOD_clean_mem [67]
+                0.00    0.00       3/137         __bvp_m_MOD_rk_tableau [64]
+                0.00    0.00       3/137         __bvp_m_MOD_bvp_solver [3]
+                0.00    0.00       7/137         __bvp_m_MOD_ho_gerror [18]
+                0.00    0.00      25/137         __bvp_m_MOD_newiter [4]
+                0.00    0.00      90/137         __bvp_m_MOD_mirkdc [5]
+[57]     0.0    0.00    0.00     137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+                0.00    0.00      58/58          __bvp_m_MOD_newmat [12]
+[58]     0.0    0.00    0.00      58         __bvp_m_MOD_pd_bc [58]
+                0.00    0.00     406/659         __bvp_m_MOD_p_gsub [55]
+-----------------------------------------------
+                0.00    0.00      10/10          __bvp_m_MOD_mirkdc [5]
+[59]     0.0    0.00    0.00      10         __bvp_m_MOD_interp_setup_mesh [59]
+                0.00    0.00   68383/68383       __bvp_m_MOD_interp_setup [53]
+-----------------------------------------------
+                0.00    0.00      10/10          __bvp_m_MOD_guess_3 [69]
+[60]     0.0    0.00    0.00      10         __define_fcn_MOD_guess_y [60]
+-----------------------------------------------
+                0.00    0.00       8/8           __bvp_m_MOD_mirkdc [5]
+[61]     0.0    0.00    0.00       8         __bvp_m_MOD_half_mesh [61]
+-----------------------------------------------
+                0.00    0.00       4/4           __bvp_m_MOD_mirkdc [5]
+[62]     0.0    0.00    0.00       4         __bvp_m_MOD_mesh_selector [62]
+                0.00    0.00       4/4           __bvp_m_MOD_redistribute [63]
+-----------------------------------------------
+                0.00    0.00       4/4           __bvp_m_MOD_mesh_selector [62]
+[63]     0.0    0.00    0.00       4         __bvp_m_MOD_redistribute [63]
+-----------------------------------------------
+                0.00    0.00       1/3           __bvp_m_MOD_bvp_solver [3]
+                0.00    0.00       2/3           __bvp_m_MOD_ho_gerror [18]
+[64]     0.0    0.00    0.00       3         __bvp_m_MOD_rk_tableau [64]
+                0.00    0.00       3/137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+                0.00    0.00       1/1           __bvp_m_MOD_guess_3 [69]
+[65]     0.0    0.00    0.00       1         __bvp_m_MOD_bvp_linspace [65]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[66]     0.0    0.00    0.00       1         __bvp_m_MOD_bvp_terminate [66]
+                0.00    0.00       1/137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+                0.00    0.00       1/1           __bvp_m_MOD_bvp_solver [3]
+[67]     0.0    0.00    0.00       1         __bvp_m_MOD_clean_mem [67]
+                0.00    0.00       2/137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+                0.00    0.00       1/1           __bvp_m_MOD_ho_gerror [18]
+[68]     0.0    0.00    0.00       1         __bvp_m_MOD_global_error [68]
+                0.00    0.00       2/137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[69]     0.0    0.00    0.00       1         __bvp_m_MOD_guess_3 [69]
+                0.00    0.00      10/10          __define_fcn_MOD_guess_y [60]
+                0.00    0.00       1/137         __bvp_m_MOD_check_stat [57]
+                0.00    0.00       1/1           __bvp_m_MOD_bvp_linspace [65]
+-----------------------------------------------
+                0.00    0.00       1/1           __bvp_m_MOD_bvp_solver [3]
+[70]     0.0    0.00    0.00       1         __bvp_m_MOD_interp_tableau [70]
+                0.00    0.00       1/137         __bvp_m_MOD_check_stat [57]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+   [1] MAIN__                 [18] __bvp_m_MOD_ho_gerror  [58] __bvp_m_MOD_pd_bc
+  [65] __bvp_m_MOD_bvp_linspace [22] __bvp_m_MOD_interp_eval [16] __bvp_m_MOD_pd_f
+   [3] __bvp_m_MOD_bvp_solver [53] __bvp_m_MOD_interp_setup [63] __bvp_m_MOD_redistribute
+  [66] __bvp_m_MOD_bvp_terminate [59] __bvp_m_MOD_interp_setup_mesh [14] __bvp_m_MOD_resid
+  [57] __bvp_m_MOD_check_stat [70] __bvp_m_MOD_interp_tableau [64] __bvp_m_MOD_rk_tableau
+  [67] __bvp_m_MOD_clean_mem  [24] __bvp_m_MOD_interp_weights [27] __bvp_m_MOD_sol_eval
+   [8] __bvp_m_MOD_criterion  [54] __bvp_m_MOD_interval   [17] __bvp_m_MOD_subcom
+  [15] __bvp_m_MOD_damp_factor [11] __bvp_m_MOD_jacblk    [20] __bvp_m_MOD_sum_stages
+   [6] __bvp_m_MOD_damped_newt [25] __bvp_m_MOD_load_sol  [56] __define_fcn_MOD_bcsub
+  [21] __bvp_m_MOD_defect_estimate [62] __bvp_m_MOD_mesh_selector [23] __define_fcn_MOD_fsub
+  [26] __bvp_m_MOD_eval_s      [5] __bvp_m_MOD_mirkdc     [60] __define_fcn_MOD_guess_y
+  [13] __bvp_m_MOD_fixed_jacob [4] __bvp_m_MOD_newiter     [7] colrow_
+  [68] __bvp_m_MOD_global_error [12] __bvp_m_MOD_newmat    [9] crdcmp_
+  [69] __bvp_m_MOD_guess_3    [19] __bvp_m_MOD_p_fsub     [10] crslve_
+  [61] __bvp_m_MOD_half_mesh  [55] __bvp_m_MOD_p_gsub
